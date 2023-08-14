@@ -1,0 +1,70 @@
+body.in {
+  background: url(img/mount1.jpg);
+  background-size: cover;
+}
+
+body.ab {
+  background: url(img/mount4.jpg);
+  background-size: cover;
+}
+
+body.pr {
+  background: url(img/mount2.jpg);
+  background-size: cover;
+}
+
+#c1, #c2 {
+  height: 400px; /* Your height here */
+  overflow: hidden;
+}
+
+body.co {
+  background: url(img/mount3.jpg);
+  background-size: cover;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: white;
+  background: grey;
+}
+
+::selection {
+  color: white;
+  background: grey;
+}
+
+nav ul a{
+  color: black;
+}
+ul > li + li {
+margin-left: 5px;
+padding-left: 5px;
+border-left: 1px solid #bbb;
+}
+
+.fa {
+  transform: translateY(20%);
+}
+
+.tabs .tab a {
+  color: rgba(0, 0, 0, 0.7);
+  /*Custom Text Color*/
+}
+
+.tabs .tab a:hover {
+  color:#747474;
+  /*Custom Color On Hover*/
+}
+
+.tabs .tab a:focus.active {
+  color:#616161;
+  /*Custom Text Color While Active*/
+  background-color: rgba(151, 151, 151, 0.2);
+  /*Custom Background Color While Active*/
+}
+
+.tabs .indicator {
+  background-color:#646464;
+  width: 15%;
+  /*Custom Color Of Indicator*/
+}

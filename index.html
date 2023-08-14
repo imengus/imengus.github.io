@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <script type = "text/javascript"
+  src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>           
+  <script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js">
+  </script> 
+  <title>Materialize CSS</title>
+</head>
+<body class="in">
+  <div id="nav-placeholder"></div>
+  <div class="container center">
+    <h2></h2>
+    <div class="row">
+      <div class="col s12">
+        <div class="card transparent">
+          <div class="card-content">
+            <span class="card-title">Hello world, I'm Ilkin Mengusoglu</span>
+          </div>
+          <div class="card-tabs">
+            <ul class="tabs tabs-fixed-width transparent">
+              <li class="tab"><a class="black-text" href="#test4">programmer</a></li>
+              <li class="tab"><a class="active black-text" href="#test5">med-student</a></li>
+              <li class="tab"><a class="black-text" href="#test6">painter</a></li>
+            </ul>
+          </div>
+          <div class="card-content transparent">
+            <div class="left-align" id="test4">Extensive experience with Python libraries (greater familiarity first): numpy, matplotlib, pandas, seaborn, scikit-learn... </div>
+            <div class="left-align" id="test5">I am a first year medical student at Univerisity College London, a medical school in the top 10 globally. Societies I attend include the UCL mountaineering and tech clubs.</div>
+            <div class="left-align"  id="test6">Art is timeless to me. I have on occassion painted for 12 hours uninterruptedly; the hands toiling but the soul in rapture. Acrylics and charcoal are media I am particularly proficient in.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+  $(function(){
+    $("#nav-placeholder").load("nav.html");
+  });
+  </script>
+  <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.sidenav').sidenav();
+    })
+  </script>
+</body>
+</html>
