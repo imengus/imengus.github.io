@@ -1,26 +1,43 @@
 body.in {
-  background: url(img/mount1.jpg);
+  background: url(img/mount4.jpg) top right no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 body.ab {
-  background: url(img/mount4.jpg);
+  background: url(img/mount4.jpg) top right no-repeat;
   background-size: cover;
-}
-
-body.pr {
-  background: url(img/mount2.jpg);
-  background-size: cover;
+  background-attachment: fixed;
 }
 
 #c1, #c2 {
-  height: 400px; /* Your height here */
+  height: 520px; /* Your height here */
   overflow: hidden;
 }
 
-body.co {
-  background: url(img/mount3.jpg);
+@media (max-width: 995px) {
+  body.ab {
+    background: url(img/mount4.jpg) top right no-repeat;
+    background-size: 400%;
+    background-attachment: fixed;
+  }
+  
+  #c1, #c2 {
+    height: 100%; /* Your height here */
+    overflow: hidden;
+  }
+}
+
+body.pr {
+  background: url(img/mount4.jpg) top right no-repeat;
   background-size: cover;
+  background-attachment: fixed;
+}
+
+body.co {
+  background: url(img/mount4.jpg) top left no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 ::-moz-selection { /* Code for Firefox */
@@ -67,4 +84,9 @@ border-left: 1px solid #bbb;
   background-color:#646464;
   width: 15%;
   /*Custom Color Of Indicator*/
+}
+
+.sidenav {
+  background: url(img/mount4.jpg);
+  font-size: larger;
 }
