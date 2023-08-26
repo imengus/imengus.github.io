@@ -13,52 +13,214 @@
   src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>           
   <script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js">
   </script> 
-  <title>Home</title>
+  <title>Ilkin Mengusoglu</title>
+  <meta name="description" content="Ilkin's personal portfolio">
   <link rel="shortcut icon" type="image/ico" href="img/fav.ico"/>
 </head>
 <body class="in">
-  <div id="nav-placeholder"></div>
-  <div class="container">
-    <h2></h2>
+  <section class="container section" id="intro">
     <div class="row">
       <div class="col s12">
         <div class="card transparent">
           <div class="card-content">
-            <span class="card-title">I'm Ilkin Mengusoglu:</span>
-            <span class="card-title">a UCL med-student, among many other things.</span>
-          </div>
-          <div class="card-tabs">
-            <ul class="tabs tabs-fixed-width transparent">
-              <li class="tab"><a class="black-text" href="#test4">translator</a></li>
-              <li class="tab"><a class="active black-text" href="#test5">coder</a></li>
-          
-              <li class="tab"><a class="black-text" href="#test6">painter</a></li>
-            </ul>
-          </div>
-          <div class="card-content transparent">
-            <div class="left-align" id="test4">Translate from: Spanish, German, Turkish.
-              <br>
-            Translate to: Spanish, Turkish
+            <div class="row right">
+              <ul id="icons">
+                <li></li>
+                <li><a title="Go to about section" href="#about">About</a></li>
+                <li><a title="Go to projects section" href="#projects">Projects</a></li>
+                <li><a title="Go to contact section" href="#contact">Contact</a></li>
+                <li><a title="Find my LinkedIn page" href="https://uk.linkedin.com/in/ilkin-mengusoglu-59287b225" class="black-text"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
+                <li><a title="imengusoglu@gmail.com" href="mailto:imengusoglu@gmail.com" class="black-text"><i class="fa fa-at fa-2x"></i></a></li>
+                <li><a title="Find me on GitHub" href="https://github.com/imengus" class="black-text"><i class="fa fa-github-square fa-2x"></i></a></li>
+              </ul>
             </div>
-            <div class="left-align" id="test5">Extensive experience with Python libraries: numpy, matplotlib, pandas, seaborn, scikit-learn.</div>
-            <div class="left-align"  id="test6">I grew up with art supplies. Give me an idea and I will materialise it in acrylics.</div>
+            <div class="card-title hide-on-med-and-down" id="topone">
+              I'm Ilkin Mengusoglu, <br>
+              a UCL med-student with several side interests.
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
+  </section>
+  <section class="container section" id="about">
+    <div class="row">
+      <div class="col s12">
+        <div class="card transparent">
+          <div class="card-title center">
+            <b>About</b>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m12 l7">
+        <div class="card transparent" id="c1">
+          <div class="card-content">
+            <span class="card-title">Skills</span>
+            <h5>Programming</h5>
+            <p>First starting to code at 17 for my course in number theory, the newfound enjoyment allowed me to acclimatise to foreign concepts within a few months.</p>
+            <li><b>Python libraries:</b> numpy, pandas, scikit-learn, matplotlib and other plotting libs.</li>
+            <li><b>C/C++ libraries:</b> standard, GMP</li>
+            <li>Also proficient in <b>LaTeX </b>(for EPQ),<b> HTML, CSS</b>.</li>
+            <a href="#projects">view projects</a>
 
-  <script>
-  $(function(){
-    $("#nav-placeholder").load("nav.html");
-  });
-  </script>
-  <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-  <script>
-    $(document).ready(function(){
-      $('.sidenav').sidenav();
-    })
-  </script>
+            <h5>Languages</h5>
+            <p>My dedication and capacity to learn has earned me fluency in Spanish and proficiency in German. From these I translated 10 papers for systematic reviews.</p>
+            <li><b>I can translate from:</b> Spanish, German, Turkish.</li>
+            <a href="#recommendations">view recommendations</a>
+            
+            <h5>Communication</h5>
+            <p>Giving and supervising 10s of presentations at my Medical Discussion Club in College, volunteering as a befriender, and networking at neuroscience conferences have made me quite the communicator.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m12 l5">
+        <div class="card transparent" id="c2">
+          <div class="card-content">
+            <span class="card-title">Education</span>
+            <h5>Undergrad: UCL Medical School</h5>
+            <p>Active member of UCL medical community</p>
+            <h5>A-Levels: Peter Symonds College</h5>
+            <p>A*A*A*A*A* in Biology, Chemistry, Maths, Further Maths, and EPQ.</p>
+            <p>Highlights: Top 16 in nationwide Biology Olympiad. Self-studied Further Maths in 6 months.</p>
+            <h5>GCSEs: Thornden School</h5>
+            <p>9 grades (the highest grade) in 11 subjects</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m12 l5">
+        <div class="card transparent" id="c3">
+          <div class="card-content">
+            <span class="card-title">Hobbies</span>
+            <p>Long distance cycling, mountaineering, painting, and meeting new people!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container section" id="projects">
+    <div class="row">
+      <div class="col s12">
+        <div class="card transparent">
+          <div class="card-title center">
+            <b>Projects</b>
+          </div>
+        </div>
+      </div>
+    <div class="row ">
+      <div class="col s12 m12 l12 xl8">
+        <div class="card transparent" id="c4">
+          <div class="card-image">
+            <img src="img/simplex2.png" alt="TkInter demo">
+          </div>
+          <div class="card-content">
+            <span class="card-title">The simplex algorithm</span>
+            <p>I implemented the most famous linear programming algorithm in Python (using numpy), with a Tkinter UI.</p>
+          </div>
+          <div class="card-action">
+            <a href="https://gist.github.com/imengus/f9619a568f7da5bc74eaf20169a24d98" class="grey-text">My explanation</a>
+            <a href="https://github.com/TheAlgorithms/Python/blob/master/linear_programming/simplex.py" class="grey-text">Code on FOSS repo</a>
+            <a href="https://github.com/imengus/simplex/tree/main" class="grey-text">My repo (with input)</a>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m12 l12 xl4">
+        <div class="card transparent" id="c4">
+          <div class="card-image">
+            <img src="img/carmichael.png" alt="Complete list of Carmichael numbers between two bounds">
+          </div>
+          <div class="card-content">
+            <span class="card-title">Other algorithms</span>
+            <p>An extension problem prompted me to write a Carmichael number generator. I serially optimised the Python code until eventually writing it in C++ (output shown above). Find it in my <a href="https://github.com/imengus/algorithms"><code>algorithms</code></a> repository, along with Game of Life and fractal generators.</p>
+          </div>
+        </div>
+        <div class="card transparent" id="c4">
+          <div class="card-content">
+            <span class="card-title">Data Science</span>
+            <p>A collection of individually insignificant scripts I wrote for data visualisation, including those for my study hours and Ukraine statistics projects, have been lost to untimely Linux failures. ☹ </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container section" id="recommendations">
+    <div class="row">
+      <div class="col s12">
+        <div class="card transparent">
+          <div class="card-title center">
+            <b>Recommendations</b>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 l4">
+          <div class="card transparent">
+            <div class="card-content">
+              <div class="card-title">
+                Dr. Heidi Singleton
+              <span class="right" id="position">Lecturer in Children and Young People's Nursing</span>
+              </div>
+              <br>
+              <span class="fa fa-quote-left">&ensp;</span>
+              <p>Thank you so much for translating a paper from Spanish to English for our cochrane review based on inclusion criteria. Really helpful and professional</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 l4">
+          <div class="card transparent">
+            <div class="card-content">
+              <div class="card-title">
+                Jenny Bellorini
+              <span class="right" id="position">Cochrane ENT Managing Editor</span>
+              </div>
+              <br>
+              <span class="fa fa-quote-left">&ensp;</span>
+              <p>Ilkin completed both an initial eligibility translation and then a detailed translation of a study to be included in one of our reviews. This was done quickly and carefully and is very helpful for our author team.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 l4">
+          <div class="card transparent">
+            <div class="card-content">
+              <div class="card-title">
+                Clare Eastaugh
+              <span class="right" id="position">Research Assistant Information Specialist</span>
+              </div>
+              <br>
+              <span class="fa fa-quote-left">&ensp;</span>
+              <p>Ilkin carried out a translation from Turkish. This was done quickly and was of great use to the review authors.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container section" id="contact">
+    <div class="row">
+      <div class="col s12">
+        <div class="card transparent">
+          <div class="card-title center">
+            <b>Contact</b>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          <div class="card transparent">
+            <div class="card-content center">
+              <span class="card-title">I'm glad you've decided to get in touch!</span>
+              <p>Do email me for collaborations, new work, and volunteering opportunities:</p>
+              <a class="flow-text" href="mailto:imengusoglu@gmail.com">imengusoglu@gmail.com</a>
+              <div class="card-action">
+                <p>Find me on: </p>
+                <a class="grey-text" href="https://uk.linkedin.com/in/ilkin-mengusoglu-59287b225">LinkedIn</a>
+                <a class="grey-text" href="https://github.com/imengus">GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </body>
 </html>

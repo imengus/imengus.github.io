@@ -1,44 +1,68 @@
-body.in {
+body {
   background: url(img/mount4.jpg) top right no-repeat;
-  background-size: cover;
+  background-size: 110%;
   background-attachment: fixed;
 }
 
-body.ab {
-  background: url(img/mount4.jpg) top right no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+/* #c1 {
+  height: 600px; /* Your height here
+} */
+
+#icons {
+  top: 0;
+  right: 0;
+  transform: translateY(-110%);
 }
 
-#c1, #c2 {
-  height: 520px; /* Your height here */
-  overflow: hidden;
+#icons li {
+  display: inline;
+}
+
+.fa:hover {
+  color: white;
+}
+
+.fa {
+  transform: translateY(20%);
+}
+
+a {
+  color: gray;
+}
+
+a:hover {
+  color: white;
+}
+
+.card-action a:hover {
+  color: white;
+}
+
+#about, #projects {
+  transform: translateY(-2%);
+}
+
+#position {
+  font-size: 13px;
+  transform: translateY(-27%);
 }
 
 @media (max-width: 995px) {
-  body.ab {
+  body {
     background: url(img/mount4.jpg) top right no-repeat;
     background-size: 400%;
     background-attachment: fixed;
   }
-  
-  #c1, #c2 {
-    height: 100%; /* Your height here */
+  #c1 {
+    height: 100%; 
     overflow: hidden;
+  }
+
+  #about {
+    transform: translateY(-6%);
   }
 }
 
-body.pr {
-  background: url(img/mount4.jpg) top right no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-body.co {
-  background: url(img/mount4.jpg) top left no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-}
 
 ::-moz-selection { /* Code for Firefox */
   color: white;
@@ -50,38 +74,23 @@ body.co {
   background: grey;
 }
 
-nav ul a{
-  color: black;
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
 }
+
+body::-webkit-scrollbar-track {
+  background: rgb(253, 242, 220);        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(170, 167, 132);    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid rgb(163, 147, 117);  /* creates padding around scroll thumb */
+}
+
+
 ul > li + li {
 margin-left: 5px;
 padding-left: 5px;
 border-left: 1px solid #bbb;
-}
-
-.fa {
-  transform: translateY(20%);
-}
-
-.tabs .tab a {
-  color: rgba(0, 0, 0, 0.7);
-}
-
-.tabs .tab a:hover {
-  color:#fffc57;
-}
-
-.tabs .tab a:focus.active {
-  background-color: rgba(151, 151, 151, 0.2);
-}
-
-.tabs .indicator {
-  /* background-color:#000000; */
-  width: 0;
-}
-
-.sidenav {
-  background: url(img/mount4.jpg);
-  font-size: larger;
-  width: 20%;
 }
