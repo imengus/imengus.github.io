@@ -47,6 +47,9 @@ a:hover {
   transform: translateY(-27%);
 }
 
+#downwards {
+  transform: translateY(67%);
+}
 @media (max-width: 995px) {
   body {
     background: url(img/mount4.jpg) top right no-repeat;
