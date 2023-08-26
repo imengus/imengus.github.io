@@ -1,7 +1,7 @@
 body {
-  background: url(img/mount4.jpg) top right no-repeat;
-  background-size: 110%;
-  background-attachment: fixed;
+  background: rgb(255, 238, 238);
+  /* background-size: 110%;
+  background-attachment: fixed; */
 }
 
 /* #c1 {
@@ -11,7 +11,7 @@ body {
 #icons {
   top: 0;
   right: 0;
-  transform: translateY(-110%);
+  transform: translateX(-5%);
 }
 
 #icons li {
@@ -34,10 +34,6 @@ a:hover {
   color: white;
 }
 
-.card-action a:hover {
-  color: white;
-}
-
 #about, #projects {
   transform: translateY(-2%);
 }
@@ -51,21 +47,27 @@ a:hover {
   transform: translateY(67%);
 }
 @media (max-width: 995px) {
-  body {
+  /* body {
     background: url(img/mount4.jpg) top right no-repeat;
     background-size: 400%;
     background-attachment: fixed;
-  }
+  } */
   #c1 {
     height: 100%; 
     overflow: hidden;
   }
 
   #about {
-    transform: translateY(-6%);
+    transform: translateY(-1%);
   }
 }
 
+@media (max-width: 1500px) {
+  #position {
+    font-size: 13px;
+    transform: translateY(0%);
+  }
+}
 
 ::-moz-selection { /* Code for Firefox */
   color: white;

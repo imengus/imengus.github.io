@@ -22,17 +22,20 @@
     <div class="row">
       <div class="col s12">
         <div class="card transparent">
+          <ul class="right" id="icons">
+            <li><a title="Go to about section" href="#about">About</a></li>
+            <li><a title="Go to projects section" href="#projects">Projects</a></li>
+            <li><a title="Go to contact section" href="#contact">Contact</a></li>
+            <li><a title="Find my LinkedIn page" href="https://uk.linkedin.com/in/ilkin-mengusoglu-59287b225" class="black-text"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
+            <li><a title="imengusoglu@gmail.com" href="mailto:imengusoglu@gmail.com" class="black-text"><i class="fa fa-at fa-2x"></i></a></li>
+            <li><a title="Find me on GitHub" href="https://github.com/imengus" class="black-text"><i class="fa fa-github-square fa-2x"></i></a></li>
+          </ul>
           <div class="card-content">
-            <div class="row right">
-              <ul id="icons">
-                <li></li>
-                <li><a title="Go to about section" href="#about">About</a></li>
-                <li><a title="Go to projects section" href="#projects">Projects</a></li>
-                <li><a title="Go to contact section" href="#contact">Contact</a></li>
-                <li><a title="Find my LinkedIn page" href="https://uk.linkedin.com/in/ilkin-mengusoglu-59287b225" class="black-text"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
-                <li><a title="imengusoglu@gmail.com" href="mailto:imengusoglu@gmail.com" class="black-text"><i class="fa fa-at fa-2x"></i></a></li>
-                <li><a title="Find me on GitHub" href="https://github.com/imengus" class="black-text"><i class="fa fa-github-square fa-2x"></i></a></li>
-              </ul>
+            <div class="card-title hide-on-large-only" id="topone">
+            <br>
+            <br>
+              I'm Ilkin Mengusoglu, <br>
+              a UCL med-student with several side interests.
             </div>
             <div class="card-title hide-on-med-and-down" id="topone">
               I'm Ilkin Mengusoglu, <br>
@@ -58,7 +61,7 @@
             <span class="card-title">Skills</span>
             <h5>Programming</h5>
             <p>First starting to code at 17 for my course in number theory, the newfound enjoyment allowed me to acclimatise to foreign concepts within a few months.</p>
-            <li><b>Python libraries:</b> numpy, pandas, scikit-learn, matplotlib and other plotting libs.</li>
+            <li><b>Python libraries:</b> numpy, pandas, scikit-learn, <a href="graphs.html">matplotlib</a> and other plotting libs.</li>
             <li><b>C/C++ libraries:</b> standard, GMP.</li>
             <li>I also have experience in <b>LaTeX </b>(for EPQ),<b> HTML, CSS</b>.</li>
             <a href="#projects">view projects</a>
@@ -111,7 +114,7 @@
       <div class="col s12 m12 l12 xl8">
         <div class="card transparent" id="c4">
           <div class="card-image">
-            <img src="img/simplex2.png" alt="TkInter demo">
+            <img src="img/simplex2.png" alt="">
           </div>
           <div class="card-content">
             <span class="card-title">The simplex algorithm</span>
@@ -127,17 +130,17 @@
       <div class="col s12 m12 l12 xl4">
         <div class="card transparent" id="c4">
           <div class="card-image">
-            <img src="img/carmichael.png" alt="Complete list of Carmichael numbers between two bounds">
+            <img src="img/carmichael.png" alt="">
           </div>
           <div class="card-content">
             <span class="card-title">Other algorithms</span>
-            <p>An extension problem prompted me to write a Carmichael number generator. I serially optimised the Python code until eventually writing it in C++ (output shown above). Find it in my <a href="https://github.com/imengus/algorithms"><code>algorithms</code></a> repository, along with Game of Life and fractal generators.</p>
+            <p>An extension problem prompted me to write a Carmichael number generator. I serially optimised the Python code until eventually writing it in C++ (output shown above). Find it in my <a href="https://github.com/imengus/algorithms"><code>algorithms</code></a> repository, along with scripts modelling neurons, or Game of Life.</p>
           </div>
         </div>
         <div class="card transparent" id="c4">
           <div class="card-content">
             <span class="card-title">Data Science</span>
-            <p>A collection of individually insignificant scripts I wrote for data visualisation, including those for my study hours and Ukraine statistics projects, have been lost to untimely Linux failures. ☹ </p>
+            <p>A collection of individually insignificant scripts I wrote for data visualisation have been the casualties of untimely Linux failures ☹. However, the <a href="graphs.html">plots</a> live on. Do check them out!</p>
           </div>
         </div>
       </div>
@@ -153,7 +156,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col s12 l4">
+        <div class="col s12 m12 l12 xl4">
           <div class="card transparent">
             <div class="card-content">
               <div class="card-title">
@@ -166,7 +169,7 @@
             </div>
           </div>
         </div>
-        <div class="col s12 l4">
+        <div class="col s12 m12 l12 xl4">
           <div class="card transparent">
             <div class="card-content">
               <div class="card-title">
@@ -179,7 +182,7 @@
             </div>
           </div>
         </div>
-        <div class="col s12 l4">
+        <div class="col s12 m12 l12 xl4">
           <div class="card transparent">
             <div class="card-content">
               <div class="card-title">
@@ -222,5 +225,12 @@
       </div>
     </div>
   </section>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.materialboxed').materialbox();
+    });
+  </script>
 </body>
 </html>
