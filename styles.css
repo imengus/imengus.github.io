@@ -1,5 +1,5 @@
 body {
-  background: rgb(255, 238, 238);
+  background: rgb(231, 243, 255);
   /* background-size: 110%;
   background-attachment: fixed; */
 }
@@ -27,7 +27,7 @@ body {
 }
 
 a {
-  color: gray;
+  color: rgb(32, 155, 255);
 }
 
 a:hover {
