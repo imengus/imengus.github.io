@@ -99,3 +99,9 @@ margin-left: 5px;
 padding-left: 5px;
 border-left: 1px solid #bbb;
 }
+
+#linkback {
+  top: 0;
+  transform: translateY(+170%);
+  margin-top: -50px;
+}
