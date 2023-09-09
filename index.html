@@ -24,7 +24,7 @@
         <div class="card transparent">
           <ul class="right" id="icons">
             <!-- <li><a title="Go to about section" href="#about">About</a></li> -->
-            <li><a title="Go to projects section" href="#projects">Projects</a></li>
+            <li><a title="Go to projects section" href="#about">About</a></li>
             <li><a title="Go to contact section" href="#contact">Contact</a></li>
             <li><a title="Find my LinkedIn page" href="https://uk.linkedin.com/in/ilkin-mengusoglu-59287b225" class="blue-text"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
             <li><a title="imengusoglu@gmail.com" href="mailto:imengusoglu@gmail.com" class="blue-text"><i class="fa fa-at fa-2x"></i></a></li>
@@ -46,6 +46,67 @@
       </div>
     </div>
   </section>
+  <section class="container section" id="projects">
+    <div class="col s12">
+      <div class="card transparent">
+        <div class="card-title center">
+          <b>Projects</b>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 m12 l12 xl5">
+        <div class="card transparent" id="c4">
+          <div class="card-image">
+            <img src="img/nn.png" alt="">
+          </div>
+          <div class="card-content">
+            <span class="card-title">Fully connected neural network</span>
+            <p>From scratch, I wrote C++ libraries for neural networks and matrix arithmetic. Implementations include (in additon to features referenced in the image) He initialisation, momentum, and minibatches.
+            </p><a href="https://github.com/imengus/nn" class="blue-text">VIEW REPO</a>
+          </div>
+        </div>
+        <div class="card transparent" id="c4">
+          <div class="card-image">
+            <img src="img/sideside.png" alt="">
+          </div>
+          <div class="card-content">
+            <span class="card-title">Demographic marble</span>
+            <p>A daydream envisioned dropping a marble onto the elevated heatmap of London's population (Census, '11), thus tracing the path of the fastest exit to the countryside.</p>
+          </div>
+          <div class="card-action">
+            <a href="https://github.com/imengus/datasci/london" class="blue-text">notebooks</a>
+            <a href="./graphs" class="blue-text">plot gallery</a>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m12 l12 xl7">
+        <div class="card transparent" id="c4">
+          <div class="card-image">
+            <img src="img/simplex3.png" alt="">
+          </div>
+          <div class="card-content">
+            <span class="card-title">Simplex optimisation</span>
+            <p>I implemented the most famous linear programming algorithm in Python, which I then contributed it to TheAlgorithms.</p>
+          </div>
+          <div class="card-action">
+            <a href="https://gist.github.com/imengus/f9619a568f7da5bc74eaf20169a24d98" class="blue-text">My explanation</a>
+            <a href="https://github.com/TheAlgorithms/Python/blob/master/linear_programming/simplex.py" class="blue-text">Code on open-source repo</a>
+            <a href="https://github.com/imengus/simplex/tree/main" class="blue-text">My repo (with input)</a>
+          </div>
+        </div>
+        <div class="card transparent" id="c4">
+          <div class="card-image">
+            <img src="img/carmichael2.png" alt="">
+          </div>
+          <div class="card-content">
+            <span class="card-title">Carmichael numbers (and others)</span>
+            <p>An extension problem prompted me to write a Carmichael number generator. I serially optimised the Python code until eventually writing it in C++ (output shown above).Find it in my <a href="https://github.com/imengus/algorithms"><code>algorithms</code></a> repository, along with scripts modelling neurons, or Game of Life. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <section class="container section" id="about">
     <div class="row">
       <div class="col s12">
@@ -55,20 +116,21 @@
           </div>
         </div>
       </div>
-      <div class="col s12 m12 l7">
+      <div class="col s12 m12 l5">
         <div class="card transparent" id="c1">
           <div class="card-content">
             <span class="card-title">Skills</span>
             <h5>Programming</h5>
-            <p>My course in number theory introduced me to the possibilities of programming.</p>
-            <li><b>Python libraries:</b> numpy, pandas, scikit-learn, matplotlib<a href="graphs.html"> (view gallery)</a> and other plotting libs.</li>
-            <li><b>C/C++ libraries:</b> standard, GMP.</li>
-            <li>I also have experience in <b>LaTeX </b>(for EPQ),<b> HTML, CSS</b>.</li>
+            I code in <b>Python</b> and <b>C++</b> for data science and machine learning, after my course in number theory introduced me to the possibilities of programming. 
+            <p>I also have experience in <b>LaTeX </b>(for EPQ),<b> HTML, CSS.</b></p>
+            <!-- <li><b>Python libraries:</b> numpy, pandas, scikit-learn, matplotlib<a href="graphs.html"> (view gallery)</a> and other plotting libs.</li>
+            <li><b>C/C++ libraries:</b> standard, GMP.</li> -->
+            <!-- <li>I also have experience in .</li> -->
             <a href="#projects">view projects</a>
 
             <h5>Languages</h5>
-            <p>I translated 10 papers for systematic reviews.</p>
-            <li>Fluent in <b>Spanish and Turkish</b>, proficient in <b>German</b></li>
+            <p>
+            Fluent in <b>Spanish and Turkish</b>, proficient in <b>German.</b> From these I translated 10 papers for systematic reviews.</p>
             <a href="#recommendations">view recommendations</a>
 <!--             
             <h5>Communication</h5>
@@ -80,85 +142,27 @@
           </div>
         </div>
       </div>
-      <div class="col s12 m12 l5">
+      <div class="col s12 m12 l7">
         <div class="card transparent" id="c2">
           <div class="card-content">
             <span class="card-title">Education</span>
             <h5>Undergrad: UCL Medical School</h5>
             <!-- <p>Active member of UCL medical community</p> -->
             <h5>A-Levels: Peter Symonds College</h5>
-            <p>A*A*A*A*A* in Biology, Chemistry, Double Maths, and EPQ. <b>Highlights:</b> Top 16 in nationwide Biology Olympiad. Self-studied Further Maths in 6 months.</p>
+            <p>A*A*A*A*A* in Biology, Chemistry, Maths, Further Maths, and EPQ. 
+            <p><b>Highlights:</b> Top 16 in nationwide Biology Olympiad <b>|</b> Self-studied Further Maths in 6 months <b>|</b> Ran the college Medical Discussion Club and mentored presenters</p></p>
             <!-- <h5>GCSEs: Thornden School</h5>
             <p>Grade 9s (A*) in 11 subjects</p> -->
           </div>
         </div>
       </div>
-      <div class="col s12 m12 l5">
+      <div class="col s12 m12 l7">
         <div class="card transparent" id="c3">
           <div class="card-content">
             <span class="card-title">Hobbies</span>
             <p>Long distance cycling, mountaineering, painting, and meeting new people!</p>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
-  <section class="container section" id="projects">
-    <div class="row">
-      <div class="col s12">
-        <div class="card transparent">
-          <div class="card-title center">
-            <b>Projects</b>
-          </div>
-        </div>
-      </div>
-    <div class="row ">
-      <div class="col s12 m12 l12 xl6">
-        <div class="card transparent" id="c4">
-          <div class="card-image">
-            <img src="img/simplex3.png" alt="">
-          </div>
-          <div class="card-content">
-            <span class="card-title">Simplex optimisation</span>
-            <p>I implemented the most famous linear programming algorithm in Python (using numpy and tkinter). Contributed it to TheAlgorithms.</p>
-          </div>
-          <div class="card-action">
-            <a href="https://gist.github.com/imengus/f9619a568f7da5bc74eaf20169a24d98" class="blue-text">My explanation</a>
-            <a href="https://github.com/TheAlgorithms/Python/blob/master/linear_programming/simplex.py" class="blue-text">Code on FOSS repo</a>
-            <a href="https://github.com/imengus/simplex/tree/main" class="blue-text">My repo (with input)</a>
-          </div>
-        </div>
-        <div class="card transparent" id="c4">
-          <div class="card-content">
-            <span class="card-title">Data scientific tragedies</span>
-            <p>Many small scripts I wrote for data visualisation or numerical methods have been the casualties of untimely Linux failures ☹. However, the <a href="graphs.html">plots</a> live on. Do check them out!</p>
-          </div>
-          <div class="card-action">
-            <a href="graphs.html" class="blue-text">Gallery</a>
-            <a href="https://github.com/imengus/datasci" class="blue-text">My repo</a>
-          </div>
-        </div>
-      </div>
-      <div class="col s12 m12 l12 xl6">
-        <div class="card transparent" id="c4">
-          <div class="card-image">
-            <img src="img/sideside.png" alt="">
-          </div>
-          <div class="card-content">
-            <span class="card-title">Demographic marble</span>
-            <p>A daydream envisioned dropping a marble onto the elevated heatmap of London's population (Census, '11), thus tracing the path of the fastest exit to the countryside. Notebooks are in <a href="https://github.com/imengus/datasci/tree/main/london">./datasci</a></p>
-          </div>
-        </div>
-        <div class="card transparent" id="c4">
-          <div class="card-image">
-            <img src="img/carmichael2.png" alt="">
-          </div>
-          <div class="card-content">
-            <span class="card-title">Carmichael numbers</span>
-            <p>An extension problem prompted me to write a Carmichael number generator. I serially optimised the Python code until eventually writing it in C++ (output shown above). Find it in my <a href="https://github.com/imengus/algorithms"><code>algorithms</code></a> repository, along with scripts modelling neurons, or Game of Life.</p>
-          </div>
-        </div>
-       </div>
       </div>
     </div>
   </section>
