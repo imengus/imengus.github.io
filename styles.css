@@ -57,7 +57,7 @@ a:hover {
     overflow: hidden;
   }
 
-  #about {
+  #about, #projects {
     transform: translateY(-1%);
   }
 }
