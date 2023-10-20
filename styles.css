@@ -1,12 +1,12 @@
 body {
-  background: rgb(231, 243, 255);
+  background: rgb(238, 244, 250);
   /* background-size: 110%;
   background-attachment: fixed; */
 }
 
-/* #c1 {
-  height: 600px; /* Your height here
-} */
+#c4 {
+  transform: translateY(-5%);
+}
 
 #icons {
   top: 0;
@@ -31,7 +31,7 @@ a {
 }
 
 a:hover {
-  color: white;
+  color: rgb(119, 211, 253);
 }
 
 #about, #projects {
