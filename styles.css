@@ -19,9 +19,8 @@ body {
 }
 
 .fa:hover {
-  color: white;
+  color: darkblue;
 }
-
 .fa {
   transform: translateY(20%);
 }
@@ -31,7 +30,8 @@ a {
 }
 
 a:hover {
-  color: rgb(119, 211, 253);
+  color: rgb(62, 62, 145);
+  text-decoration: underline;
 }
 
 #about, #projects {
